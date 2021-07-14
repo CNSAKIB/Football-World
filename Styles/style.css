@@ -7,23 +7,24 @@
     padding: 0;
 }
 body{
-    font-family: 'Poppins', sans-serif;
+   
 }
 /* header styles */
 
-.Container{
+.Banner-container{
     display: flex;
     height: 677px;
     background-color: #2D25A0;
+    margin-bottom: 85px;
 }
-.Container img{
+.Banner-container img{
     width: 556.01px;
     height: 438px;
     left: 1316.01px;
     margin-top: 153px;
     margin-right: 123px;
 }
-.Container img:hover{
+.Banner-container img:hover{
     transform: scale(1.2);
     transition: 1s ease-in-out;
 }
@@ -31,6 +32,7 @@ body{
     width: 50%;
 }
 .Header-text{
+    font-family: 'Poppins', sans-serif;
     font-size: 64px;
     color: #FFFFFF; 
     margin-left: 156px;
@@ -53,4 +55,27 @@ body{
 }
 .fa-arrow-right{
     padding-left: 8px;
+}
+
+/* Main Section Styles */
+
+.Players-container{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+    width: 1020px;
+    height: 474px;
+    margin-left: 195px;
+    margin-right: 210px;
+}
+.Player{
+    width: 330px;
+    height: 474px;
+    padding: 15px;
+    box-shadow: 10px 10px 40px gray;
+    }
+.Player img{
+    
+    width: 330px;
+    height: 256px;
 }
